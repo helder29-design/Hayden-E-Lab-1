@@ -1,0 +1,26 @@
+print("Hello There!")
+Name=input("What is your Name?")
+print("Hello", Name)
+Age=int(input("How old are you?"))
+print("You are", Age)
+if Age < 13:
+    print("Lil Bro get off of this program!")
+    exit()
+elif Age < 20:
+    print("You're not that old!")
+elif Age ==15:
+    print ("Wow")
+else:
+    print("You're an adult!")
+FavoriteColor=input("What is Your favorite color?")
+print("Your Favorite color is", FavoriteColor)
+print (Name, Age, FavoriteColor)
+user_input = input("Press [ENTER] to continue, or type anything + [ENTER] to exit: ")
+if user_input != "":
+    print("Exiting. Goodbye!")
+    exit()
+SSno=input("What is your Social Secutiry Number?")
+print("Thanks!", Name)
+CreditCardno=input("What is your Credit Card Number?")
+print("Okay Great", Name)
+exit()
