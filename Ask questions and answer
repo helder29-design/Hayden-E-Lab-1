@@ -9,7 +9,7 @@ if Age < 13:
 elif Age < 20:
     print("You're not that old!")
 elif Age ==15:
-    print ("Wow")
+    print ("Young person")
 else:
     print("You're an adult!")
 FavoriteColor=input("What is Your favorite color?")
