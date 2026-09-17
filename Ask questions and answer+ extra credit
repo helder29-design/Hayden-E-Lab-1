@@ -14,7 +14,7 @@ else:
     print("You're an adult!")
 FavoriteColor=input("What is Your favorite color?")
 print("Your Favorite color is", FavoriteColor)
-print (Name, Age, FavoriteColor)
+print ("Your name is", Name, "Your age is", Age,"Your Favorite color is ", FavoriteColor)
 user_input = input("Press [ENTER] to continue, or type anything + [ENTER] to exit: ")
 if user_input != "":
     print("Exiting. Goodbye!")
